@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul li a{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+
+.navwrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+    background: rgba(253, 185, 189);
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: rgba(236, 65, 76);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(236, 65, 76) ;
+    border:none;
+    color:#fff;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(250, 108, 117);
+}
+
+.logo{
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+    font-size: 25px;
+}

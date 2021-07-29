@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.main{
+    
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(253, 185, 189);
+}
+.main ul{
+    margin: auto;
+    padding: 15px 0;
+    list-style: none;
+    text-align: right;
+    margin: 0px 80px; 
+}
+.main li{
+    display: inline-block;
+    padding:0px 10px;
+    
+}
+.main ul li{
+    float: none;
+    display: inline-block;
+}
+.main li a{
+    transition: all 0.3s ease 0s;
+}
+
+.main li a:hover{
+    color: rgba(236, 65, 76);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(236, 65, 76) ;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(250, 108, 117);
+}
+
+.main ul li:nth-child(1){float: left;}
+.main ul li:nth-child(2){float: left;}
+.main ul li:nth-child(3){float: left;}
+.main ul li:nth-child(4){float: left;}
+.main ul li:nth-child(5){float: left;}
+
+.main ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+
+.logo{
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    
+}
